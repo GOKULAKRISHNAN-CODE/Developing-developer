@@ -1,0 +1,303 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 1329px;
+  background-color: #5ab8a0;
+  color: white;
+}
+h3 {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 30px;
+
+  background-color: #349b81;
+}
+body {
+  margin: 0 10px 10px 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  border-top: 5px solid #fff07c;
+}
+/* nav a {
+  color: white;
+  background-color: rgb(226, 65, 97);
+  font-size: 16px;
+  text-decoration: none;
+} */
+.link {
+  /* margin-bottom: 10px; */
+  margin-left: 15px;
+  width: 500px;
+}
+nav a {
+  text-shadow: 1px 1px 2px rgb(151, 148, 148);
+}
+/* removing underline with shadow and also background color with color of text  */
+/* font size improved to 18px and padding around text space is 5px on all side */
+nav a:link {
+  color: whitesmoke;
+  background-color: #dd7b8c;
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+}
+nav a:visited {
+  color: whitesmoke;
+  background-color: #dd7b8c;
+  font-size: 18px;
+  padding: 5px;
+}
+/* adding underline and background color with color of text when hovering  */
+nav a:hover {
+  color: rgb(245, 186, 114);
+  background-color: #dd7b8c;
+  padding: 5px;
+  text-decoration: underline;
+}
+nav a:active {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+.image img {
+  width: 200px;
+  height: auto;
+  opacity: 0.7;
+  margin-left: 15px;
+}
+.mylife h1 {
+  color: whitesmoke;
+  text-align: justify;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-left: 15px;
+}
+/* adding text indentation to paragraph */
+/*  adding line height between lines of paragraph*/
+/* adding white-space property not to wrap by normal value */
+.mylife p {
+  font-size: 18px;
+  width: 900px;
+  margin-left: 15px;
+  text-indent: 10px;
+  line-height: 25px;
+  white-space: normal;
+}
+.strength h2 {
+  color: whitesmoke;
+  text-align: justify;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-left: 15px;
+}
+/* adding text indentation to paragraph */
+.strength p {
+  font-size: 18px;
+  width: 900px;
+  margin-left: 15px;
+  text-indent: 10px;
+}
+.strength ol {
+  font-size: 16px;
+  width: 700px;
+  margin-left: 15px;
+}
+ol li {
+  text-transform: capitalize;
+}
+ol li:first-child {
+  font-weight: bold;
+  font-size: 17px;
+}
+.weakness h2 {
+  font-size: 22px;
+  margin-left: 15px;
+}
+.weakness ul {
+  font-size: 16px;
+  margin-left: 15px;
+}
+.weakness p {
+  text-indent: 10px;
+  font-size: 18px;
+  margin-left: 15px;
+}
+ul li {
+  text-transform: capitalize;
+}
+ul li:last-child {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h2::first-letter {
+  font-size: 30px;
+}
+h1::first-letter {
+  font-size: 30px;
+}
+/* adding font size color of the font with capitalizing the quoates*/
+/* margin left is fixed for aligning the page*/
+/* display is set as inline-block to make text-indent apply */
+.quoates em {
+  font-size: 18px;
+  color: #fff07c;
+  text-transform: capitalize;
+  margin-left: 15px;
+  display: inline-block;
+  text-indent: 5px;
+}
+/* font size is set with capitalizing and bold */
+/* margin left is fixed for aligning the page */
+.quoates h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-left: 15px;
+}
+/* adding btng width which divides header and footer clearly */
+.lines {
+  border: 3px solid #b118c8;
+  margin-left: 15px;
+  width: 890px;
+}
+/* setting alignment of tables caption  */
+.captionoftable {
+  text-align: center;
+  border-top: 3px solid #fff07c;
+  background-color: #dd7b8c;
+}
+.table {
+  border-top: 3px solid #fff07c;
+  border-bottom: 3px solid #fff07c;
+  background-color: #3d9c85;
+  width: 370px;
+  font-size: 16px;
+  /* margin-left: 15px; */
+}
+.head {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px rgb(212, 172, 97);
+}
+.head th {
+  border-bottom: 4px solid white;
+  border-collapse: separate;
+  border-radius: 5px;
+}
+.rowa {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+}
+.rowa td {
+  padding: 3px;
+  border-bottom: 3px solid #52af98;
+  border-right: 3px solid #52af98;
+}
+td:last-child {
+  border-right: none;
+}
+.rowb {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+}
+.rowb td {
+  padding: 3px;
+  border-right: 3px solid #52af98;
+}
+td:last-child {
+  border-right: none;
+}
+.jaylines p {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-indent: 2px;
+  color: #fff07c;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #dd7b8c;
+  text-decoration-thickness: 3px;
+  margin-left: 15px;
+}
+
+.jaylines a:link {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgb(158, 132, 82);
+  color: white;
+  background-color: #dd7b8c;
+  margin-left: 15px;
+}
+.jaylines a:hover {
+  background-color: #b65767;
+  color: wheat;
+}
+.jaylines a:active {
+  background-color: aliceblue;
+  color: #1c2321;
+}
+.portfolio {
+  background-color: transparent;
+  margin: 15px 10px 15px 10px;
+  float: left;
+}
+header {
+  background-color: #349b81;
+  height: auto;
+  margin: 0 15px 10px 15px;
+  padding: 12px;
+  width: 1280px;
+}
+.link {
+  float: right;
+  margin-top: 23px;
+  margin-bottom: auto;
+}
+/* .image {
+  width: 200px;
+} */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.section {
+  /* background-color: darkblue; */
+  width: 920px;
+  float: left;
+}
+aside {
+  width: 400px;
+  /* background-color: lime; */
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+footer p {
+  /* background-color: aqua; */
+  width: 920px;
+  clear: both;
+}
+footer p {
+  float: left;
+}
+footer a {
+  float: right;
+  width: 180px;
+  padding: 7px;
+  margin-right: 80px;
+  margin-top: 15px;
+}
+.clearfixend::after {
+  content: "";
+  display: block;
+  clear: both;
+}
